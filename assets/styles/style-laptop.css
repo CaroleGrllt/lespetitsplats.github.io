@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+
+    /* HEADER */
+
+    .logo-container {
+        top: 40px;
+        left: 50px;
+    }
+
+    .logo {
+        width: 175px;
+    }
+
+    .header-title {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .search-recipes {
+        padding: 0 25px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    input::placeholder {
+        font-size: 14px;
+    }
+
+    .xmark-header {
+        font-size: 23px;
+    }
+
+    .glass-button-header {
+        margin: 8px 8px 8px 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* FILTERS */
+
+    .select-container {
+        width: 190px;
+        position: relative;
+    }
+
+    .select-content-dropdown {
+        position: absolute;
+        display: none;
+        min-height: 0;
+        transition: max-height .1s ease-in-out;
+    }
+
+    .open-dropdown {
+        max-height: 260px;
+        z-index: 1000;
+        display: block;
+    }
+
+    .total-recipes {
+        font-size: 18px;
+    }
+    /* CARDS */
+
+    .cards-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
